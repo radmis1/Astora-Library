@@ -9,7 +9,7 @@ Astora Library
 
 
 Aplicacion de libreria, realizada en Ionic V4.
-  Permite visualizar una pequeña porcion del libro a aleeccion, para que el cliente este seguro de lo que este comprando y no se decepcione de su libro.
+  Permite visualizar una pequeña porcion del libro a aleeccion, para que el cliente este seguro de lo que este comprando y no se decepcione de su libro :poop: .
     Permite comprar los libros a eleccion que se muestren en la aplicacion.
     Algunos son:
     
