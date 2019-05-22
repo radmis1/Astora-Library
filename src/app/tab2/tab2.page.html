@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons slot="primary">
+      <ion-button (click)="verActionSheet()">
+        <ion-icon slot="icon-only" name="md-more"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>
+      <div class="item item-avatar">
+        <ion-img src="/assets/categorias2.png"></ion-img>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/libros.jpg"></ion-img>
+  </ion-card>
+
+
+  <ion-grid>
+    <ion-list>
+      <ion-list-header>
+        Categorias
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Acción</ion-label>
+        <ion-button (click)="verAccion()">
+          <ion-icon slot="icon-only" name="book"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Amor</ion-label>
+        <ion-button color="warning" (click)="verAventura()">
+          <ion-icon slot="icon-only" name="book"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Drama</ion-label>
+        <ion-button color="danger" (click)="verDrama()">
+          <ion-icon slot="icon-only" name="book"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Infantil</ion-label>
+        <ion-button color="success" (click)="verInfantil()">
+          <ion-icon slot="icon-only" name="book"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-grid>
+</ion-content>

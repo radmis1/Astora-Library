@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-buttons slot="primary">
+      <ion-button (click)="verActionSheet()">
+        <ion-icon slot="icon-only" name="md-more"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>
+      <div class="item item-avatar">
+        <ion-img src="/assets/opciones.png"></ion-img>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+
+  
+    <ion-item>
+      <ion-label>Recibir Notificaciones</ion-label>
+      <ion-toggle checked="true" color="success" ></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Compañia</ion-label>
+      <ion-button (click)="verCompania()">
+        <ion-icon slot="icon-only" name="logo-angular"></ion-icon>
+      </ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Contactenos</ion-label>
+      <ion-button color="warning" (click)="verContactenos()">
+        <ion-icon slot="icon-only" name="call"></ion-icon>
+      </ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Proximamente</ion-label>
+      <ion-button color="danger" (click)="verProximamente()">
+        <ion-icon slot="icon-only" name="paper-plane"></ion-icon>
+      </ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Acepto terminos y condiciones</ion-label>
+      <ion-checkbox checked="true" color="success">
+      </ion-checkbox>
+    </ion-item>
+
+
+
+  </ion-list>
+</ion-content>
