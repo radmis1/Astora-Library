@@ -14,8 +14,8 @@ Aplicacion de libreria, realizada en Ionic V4.
     Algunos son:
     
     
- ![Accion](https://github.com/radmis1/Adtora-Library/blob/master/src/assets/accion3.png)
- ![Infantil](https://github.com/radmis1/Adtora-Library/blob/master/src/assets/infantil2.png)
+ ![accion](https://github.com/radmis1/Adtora-Library/blob/master/src/assets/accion3.jpg)
+ ![infantil](https://github.com/radmis1/Adtora-Library/blob/master/src/assets/infantil2.jpg)
     
 
     
